@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E20CA08522BC4C760053B496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA08422BC4C760053B496 /* AppDelegate.swift */; };
-		E20CA08722BC4C760053B496 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA08622BC4C760053B496 /* ShoppingViewController.swift */; };
-		E20CA08A22BC4C760053B496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CA08822BC4C760053B496 /* Main.storyboard */; };
-		E20CA08C22BC4C780053B496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20CA08B22BC4C780053B496 /* Assets.xcassets */; };
-		E20CA08F22BC4C780053B496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CA08D22BC4C780053B496 /* LaunchScreen.storyboard */; };
-		E20CA09722BC56EC0053B496 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA09622BC56EC0053B496 /* SettingsViewController.swift */; };
-		E20CA09922BC56F60053B496 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA09822BC56F60053B496 /* TaxesViewController.swift */; };
-		E20D489322C1703E00B85C6E /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D489222C1703E00B85C6E /* TaxesCalculator.swift */; };
+		E260C27D240C80EE00306A60 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260C27C240C80EE00306A60 /* ViewCode.swift */; };
+		E2BC6FCD240C7775007CAC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FCC240C7775007CAC84 /* AppDelegate.swift */; };
+		E2BC6FCF240C7775007CAC84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FCE240C7775007CAC84 /* SceneDelegate.swift */; };
+		E2BC6FD6240C777A007CAC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6FD5240C777A007CAC84 /* Assets.xcassets */; };
+		E2BC6FD9240C777A007CAC84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6FD7240C777A007CAC84 /* LaunchScreen.storyboard */; };
+		E2BC6FE1240C7B22007CAC84 /* ManagerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FE0240C7B22007CAC84 /* ManagerTabBarController.swift */; };
+		E2BC6FE7240C7BE5007CAC84 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FE6240C7BE5007CAC84 /* ShoppingViewController.swift */; };
+		E2BC6FE9240C7BF8007CAC84 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FE8240C7BF8007CAC84 /* SettingsViewController.swift */; };
+		E2BC6FEB240C7C09007CAC84 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6FEA240C7C09007CAC84 /* TaxesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E20CA08122BC4C760053B496 /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E20CA08422BC4C760053B496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E20CA08622BC4C760053B496 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
-		E20CA08922BC4C760053B496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E20CA08B22BC4C780053B496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E20CA08E22BC4C780053B496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E20CA09022BC4C780053B496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E20CA09622BC56EC0053B496 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		E20CA09822BC56F60053B496 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
-		E20D489222C1703E00B85C6E /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		E260C27C240C80EE00306A60 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		E2BC6FC9240C7775007CAC84 /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BC6FCC240C7775007CAC84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2BC6FCE240C7775007CAC84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2BC6FD5240C777A007CAC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BC6FD8240C777A007CAC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BC6FDA240C777A007CAC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BC6FE0240C7B22007CAC84 /* ManagerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerTabBarController.swift; sourceTree = "<group>"; };
+		E2BC6FE6240C7BE5007CAC84 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		E2BC6FE8240C7BF8007CAC84 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E2BC6FEA240C7C09007CAC84 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E20CA07E22BC4C760053B496 /* Frameworks */ = {
+		E2BC6FC6240C7775007CAC84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,48 +43,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E20CA07822BC4C760053B496 = {
+		E2BC6FC0240C7775007CAC84 = {
 			isa = PBXGroup;
 			children = (
-				E20CA08322BC4C760053B496 /* ComprasUSA */,
-				E20CA08222BC4C760053B496 /* Products */,
+				E2BC6FCB240C7775007CAC84 /* ComprasUSA */,
+				E2BC6FCA240C7775007CAC84 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E20CA08222BC4C760053B496 /* Products */ = {
+		E2BC6FCA240C7775007CAC84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E20CA08122BC4C760053B496 /* ComprasUSA.app */,
+				E2BC6FC9240C7775007CAC84 /* ComprasUSA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E20CA08322BC4C760053B496 /* ComprasUSA */ = {
+		E2BC6FCB240C7775007CAC84 /* ComprasUSA */ = {
 			isa = PBXGroup;
 			children = (
-				E20CA08422BC4C760053B496 /* AppDelegate.swift */,
-				E20CA08622BC4C760053B496 /* ShoppingViewController.swift */,
-				E20D489222C1703E00B85C6E /* TaxesCalculator.swift */,
-				E20CA09622BC56EC0053B496 /* SettingsViewController.swift */,
-				E20CA09822BC56F60053B496 /* TaxesViewController.swift */,
-				E20CA08822BC4C760053B496 /* Main.storyboard */,
-				E20CA08B22BC4C780053B496 /* Assets.xcassets */,
-				E20CA08D22BC4C780053B496 /* LaunchScreen.storyboard */,
-				E20CA09022BC4C780053B496 /* Info.plist */,
+				E2BC6FE2240C7B38007CAC84 /* Utils */,
+				E2BC6FE3240C7B44007CAC84 /* Model */,
+				E2BC6FE4240C7B4E007CAC84 /* View */,
+				E2BC6FE5240C7B57007CAC84 /* Controller */,
+				E2BC6FCC240C7775007CAC84 /* AppDelegate.swift */,
+				E2BC6FCE240C7775007CAC84 /* SceneDelegate.swift */,
+				E2BC6FD5240C777A007CAC84 /* Assets.xcassets */,
+				E2BC6FD7240C777A007CAC84 /* LaunchScreen.storyboard */,
+				E2BC6FDA240C777A007CAC84 /* Info.plist */,
 			);
 			path = ComprasUSA;
+			sourceTree = "<group>";
+		};
+		E2BC6FE2240C7B38007CAC84 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E260C27C240C80EE00306A60 /* ViewCode.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E2BC6FE3240C7B44007CAC84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BC6FE4240C7B4E007CAC84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2BC6FE5240C7B57007CAC84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6FE0240C7B22007CAC84 /* ManagerTabBarController.swift */,
+				E2BC6FE6240C7BE5007CAC84 /* ShoppingViewController.swift */,
+				E2BC6FE8240C7BF8007CAC84 /* SettingsViewController.swift */,
+				E2BC6FEA240C7C09007CAC84 /* TaxesViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E20CA08022BC4C760053B496 /* ComprasUSA */ = {
+		E2BC6FC8240C7775007CAC84 /* ComprasUSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E20CA09322BC4C780053B496 /* Build configuration list for PBXNativeTarget "ComprasUSA" */;
+			buildConfigurationList = E2BC6FDD240C777A007CAC84 /* Build configuration list for PBXNativeTarget "ComprasUSA" */;
 			buildPhases = (
-				E20CA07D22BC4C760053B496 /* Sources */,
-				E20CA07E22BC4C760053B496 /* Frameworks */,
-				E20CA07F22BC4C760053B496 /* Resources */,
+				E2BC6FC5240C7775007CAC84 /* Sources */,
+				E2BC6FC6240C7775007CAC84 /* Frameworks */,
+				E2BC6FC7240C7775007CAC84 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,25 +125,25 @@
 			);
 			name = ComprasUSA;
 			productName = ComprasUSA;
-			productReference = E20CA08122BC4C760053B496 /* ComprasUSA.app */;
+			productReference = E2BC6FC9240C7775007CAC84 /* ComprasUSA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E20CA07922BC4C760053B496 /* Project object */ = {
+		E2BC6FC1240C7775007CAC84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Anderson Alencar";
 				TargetAttributes = {
-					E20CA08022BC4C760053B496 = {
-						CreatedOnToolsVersion = 10.2.1;
+					E2BC6FC8240C7775007CAC84 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = E20CA07C22BC4C760053B496 /* Build configuration list for PBXProject "ComprasUSA" */;
+			buildConfigurationList = E2BC6FC4240C7775007CAC84 /* Build configuration list for PBXProject "ComprasUSA" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +151,50 @@
 				en,
 				Base,
 			);
-			mainGroup = E20CA07822BC4C760053B496;
-			productRefGroup = E20CA08222BC4C760053B496 /* Products */;
+			mainGroup = E2BC6FC0240C7775007CAC84;
+			productRefGroup = E2BC6FCA240C7775007CAC84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E20CA08022BC4C760053B496 /* ComprasUSA */,
+				E2BC6FC8240C7775007CAC84 /* ComprasUSA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E20CA07F22BC4C760053B496 /* Resources */ = {
+		E2BC6FC7240C7775007CAC84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20CA08F22BC4C780053B496 /* LaunchScreen.storyboard in Resources */,
-				E20CA08C22BC4C780053B496 /* Assets.xcassets in Resources */,
-				E20CA08A22BC4C760053B496 /* Main.storyboard in Resources */,
+				E2BC6FD9240C777A007CAC84 /* LaunchScreen.storyboard in Resources */,
+				E2BC6FD6240C777A007CAC84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E20CA07D22BC4C760053B496 /* Sources */ = {
+		E2BC6FC5240C7775007CAC84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20CA09922BC56F60053B496 /* TaxesViewController.swift in Sources */,
-				E20CA08722BC4C760053B496 /* ShoppingViewController.swift in Sources */,
-				E20D489322C1703E00B85C6E /* TaxesCalculator.swift in Sources */,
-				E20CA08522BC4C760053B496 /* AppDelegate.swift in Sources */,
-				E20CA09722BC56EC0053B496 /* SettingsViewController.swift in Sources */,
+				E2BC6FEB240C7C09007CAC84 /* TaxesViewController.swift in Sources */,
+				E2BC6FCD240C7775007CAC84 /* AppDelegate.swift in Sources */,
+				E2BC6FCF240C7775007CAC84 /* SceneDelegate.swift in Sources */,
+				E260C27D240C80EE00306A60 /* ViewCode.swift in Sources */,
+				E2BC6FE7240C7BE5007CAC84 /* ShoppingViewController.swift in Sources */,
+				E2BC6FE9240C7BF8007CAC84 /* SettingsViewController.swift in Sources */,
+				E2BC6FE1240C7B22007CAC84 /* ManagerTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E20CA08822BC4C760053B496 /* Main.storyboard */ = {
+		E2BC6FD7240C777A007CAC84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E20CA08922BC4C760053B496 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E20CA08D22BC4C780053B496 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E20CA08E22BC4C780053B496 /* Base */,
+				E2BC6FD8240C777A007CAC84 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +202,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E20CA09122BC4C780053B496 /* Debug */ = {
+		E2BC6FDB240C777A007CAC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +234,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -225,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -235,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		E20CA09222BC4C780053B496 /* Release */ = {
+		E2BC6FDC240C777A007CAC84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +294,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -280,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,7 +316,7 @@
 			};
 			name = Release;
 		};
-		E20CA09422BC4C780053B496 /* Debug */ = {
+		E2BC6FDE240C777A007CAC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,14 +327,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.sjav.anderson.ComprasUSA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andersonalencar.ComprasUSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E20CA09522BC4C780053B496 /* Release */ = {
+		E2BC6FDF240C777A007CAC84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +345,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.sjav.anderson.ComprasUSA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andersonalencar.ComprasUSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +355,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E20CA07C22BC4C760053B496 /* Build configuration list for PBXProject "ComprasUSA" */ = {
+		E2BC6FC4240C7775007CAC84 /* Build configuration list for PBXProject "ComprasUSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E20CA09122BC4C780053B496 /* Debug */,
-				E20CA09222BC4C780053B496 /* Release */,
+				E2BC6FDB240C777A007CAC84 /* Debug */,
+				E2BC6FDC240C777A007CAC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E20CA09322BC4C780053B496 /* Build configuration list for PBXNativeTarget "ComprasUSA" */ = {
+		E2BC6FDD240C777A007CAC84 /* Build configuration list for PBXNativeTarget "ComprasUSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E20CA09422BC4C780053B496 /* Debug */,
-				E20CA09522BC4C780053B496 /* Release */,
+				E2BC6FDE240C777A007CAC84 /* Debug */,
+				E2BC6FDF240C777A007CAC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E20CA07922BC4C760053B496 /* Project object */;
+	rootObject = E2BC6FC1240C7775007CAC84 /* Project object */;
 }
